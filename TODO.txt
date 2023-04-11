@@ -1,0 +1,31 @@
+TODO:
+
+1. Transform us_softball_league.tsv to match unity_golf_club.csv in columns and format.
+2. Standardize first and last name columns.
+3. Convert dates into a common format.
+4. All states should be in two-character abbreviation.
+5. Combine the two files into one master file.
+6. Indicate the source file for each record in the combined file.
+7. Use companies.csv to replace company_id with the company name.
+8. Identify suspect records (hint: look for impossible chronological combinations).
+9. Write bad records into a separate file.
+10.Drop those records from the main file.
+11.Build a data model to support the data seen here.
+12.Write software that will write this data to a database.
+
+
+Further Enhancements:
+
+1. Explore the data in the database using SQL queries and/or visualization tools.
+2. Implement a user interface to allow users to interact with the data (e.g., search, filter, sort, export).
+3. Write unit tests to ensure the software works as expected and catches errors.
+4. Refactor the code to improve readability, maintainability, and performance.
+5. Add support for other database systems and file formats (e.g., MySQL, PostgreSQL, CSV, JSON).
+6. Enhance the data model to support more advanced features (e.g., user authentication, access control, auditing).
+7. Expand the scope of the project to include other data sources and/or types of data (e.g., social media, web logs, sensor data).
+8. Deploy the application to a cloud provider for better scalability and availability.
+9. Collaborate with other developers to contribute to an open-source project or build a community
+
+
+this is just a basic example, and in a real-world scenario you would need to add error handling, input validation, and other features to make the software more robust and secure.
+
